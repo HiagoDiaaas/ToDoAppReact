@@ -1,12 +1,9 @@
+// src/components/List.tsx
+
 import React from 'react';
 import Item from '../Item/Item';
 
-
-interface Task {
-  id: number;
-  text: string;
-  completed: boolean;
-}
+import { Task } from '../../App';
 
 interface ListProps {
   tasks: Task[];

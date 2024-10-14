@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
+// src/components/Item.tsx
 
-interface Task {
-  id: number;
-  text: string;
-  completed: boolean;
-}
+import React, { useState } from 'react';
+import { Task } from '../../App';
 
 interface ItemProps {
   task: Task;
